@@ -1,3 +1,23 @@
 body {
-    background-color: slateblue;
+    margin: 0;
+    background-color: #AFAFAF;
+}
+.box {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-radius: 0% 0% 25px 25px;
+}
+.inbox {
+    margin :0;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    a {
+        font-size: 25px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
 }
